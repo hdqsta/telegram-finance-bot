@@ -105,6 +105,11 @@ curl "https://api.telegram.org/bot<BOT_TOKEN>/getWebhookInfo"
 
 The endpoint must be publicly reachable over HTTPS (ngrok / Cloudflare Tunnel is fine for local development).
 
+## 📚 Documentation
+
+- [API reference](docs/API.md): webhook endpoint, Firefly III and Telegram calls, message grammar, error handling, security notes.
+- [Product requirements](docs/PRD.md): goals, scope, requirements, and implementation status.
+
 ## 🧪 Tests
 
 ```bash
